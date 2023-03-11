@@ -18,6 +18,7 @@ class Country {
     displayName: 'World Wide (WW)',
     displayNameNoCountryCode: 'World Wide',
     e164Key: '',
+    group:""
   );
 
   ///The country phone code
@@ -43,6 +44,7 @@ class Country {
 
   ///An example of a telephone number with the phone code and plus sign
   final String? fullExampleWithPlusSign;
+  final String? group;
 
   ///Country name (country code)
 
@@ -73,6 +75,7 @@ class Country {
     required this.displayNameNoCountryCode,
     required this.e164Key,
     this.fullExampleWithPlusSign,
+    this.group
   });
 
   Country.from({required Map<String, dynamic> json})
@@ -86,6 +89,7 @@ class Country {
         displayName = json['display_name'],
         fullExampleWithPlusSign = json['full_example_with_plus_sign'],
         displayNameNoCountryCode = json['display_name_no_e164_cc'],
+        group = json['group'],
         e164Key = json['e164_key'];
 
   static Country parse(String country) {
