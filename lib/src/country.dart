@@ -57,6 +57,8 @@ class Country {
   )
   String get displayNameNoE164Cc => displayNameNoCountryCode;
 
+  String? get groupName => group;
+
   String? getTranslatedName(BuildContext context) {
     return CountryLocalizations.of(context)
         ?.countryName(countryCode: countryCode);

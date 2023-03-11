@@ -73,6 +73,7 @@ class HomePage extends StatelessWidget {
               showPhoneCode: true,
               onSelect: (Country country) {
                 print('Select country: ${country.displayName}');
+                print(country.groupName);
               },
               // Optional. Sets the theme for the country list picker.
               countryListTheme: CountryListThemeData(
