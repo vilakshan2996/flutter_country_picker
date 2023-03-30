@@ -257,8 +257,9 @@ final List<Map<String, dynamic>> countryCodes = [
     "display_name": "Belarus (BY) [+375]",
     "full_example_with_plus_sign": "+375294911911",
     "display_name_no_e164_cc": "Belarus (BY)",
-    "e164_key": "375-BY-0"
-  ,"group":"D"},
+    "e164_key": "375-BY-0",
+    "ems":[5800,6350,7350,8400,9450,10450,11500,12550,13550,14600,15650,16650,17700,18750,19750,20800,21850,22850,23900,24950,25950,27000,28050,29050,30100,31150,32150,33200,34250,35250,36300,37300,38350,39400,40400,41450,42350,43200,44100,45000,45850,46750,47650,48500,49400,50300,51150,52050,52950,53800,54700,55600,56450,57350,58250,59100,60000,60900,61750,62650,63550]
+  ,"emsMaximum":30,"group":"D"},
   {
     "e164_cc": "32",
     "iso2_cc": "BE",
@@ -270,8 +271,10 @@ final List<Map<String, dynamic>> countryCodes = [
     "display_name": "Belgium (BE) [+32]",
     "full_example_with_plus_sign": "+32470123456",
     "display_name_no_e164_cc": "Belgium (BE)",
-    "e164_key": "32-BE-0"
-  ,"group":"E"},
+    "e164_key": "32-BE-0",
+    "ems":[5350,5950,7050,8150,9300,10400,11500,12600,13750,14850,15950,17050,18200,19300,20400,21500,22600,28200,29300,30400,31500,32600,33750,34850,35950,37050,38200,39300,40400,41500,42600,43750,44700,45650,46600,47600,48550,49500,50450,51450,52400,53350,54300,55250,56250,57200,58150,59100,60100,61050,62000,62950,63900,64900,65850,66800,67750],
+    "emsMaximum":30,
+    "group":"E"},
   {
     "e164_cc": "501",
     "iso2_cc": "BZ",
@@ -322,7 +325,8 @@ final List<Map<String, dynamic>> countryCodes = [
     "display_name": "Bhutan (BT) [+975]",
     "full_example_with_plus_sign": "+97517123456",
     "display_name_no_e164_cc": "Bhutan (BT)",
-    "e164_key": "975-BT-0"
+    "e164_key": "975-BT-0","emsMaximum":30,
+    "ems":[3350,3750,4550,5300,6100,6850,7650,8400,9200,9950,10750,11500,12300,13050,13850,14600,15400,16150,16950,17700,18500,19250,20050,20800,21600,22350,23150,23900,24700,25450,26250,27000,27800,28550,29350,30100,30750,31350,32000,32600,33250,33850,34500,35100,35750,36350,36950,37600,38200,38850,39450,40100,40700,41350,41950,42600,43200,43850,44450,45100,45700]
   ,"group":"B"},
   {
     "e164_cc": "591",
@@ -361,7 +365,9 @@ final List<Map<String, dynamic>> countryCodes = [
     "display_name": "Botswana (BW) [+267]",
     "full_example_with_plus_sign": "+26771123456",
     "display_name_no_e164_cc": "Botswana (BW)",
-    "e164_key": "267-BW-0"
+    "e164_key": "267-BW-0",
+    "emsMaximum":30,
+    "ems":[5750,6250,7200,8150,9100,10050,11050,12000,12950,13900,14850,15800,16750,17700,18650,19600,20600,21550,22500,23450,24400,25350,26300,27250,28200,29150,30150,31100,32050,33000,33950,34900,35850,36800,37750,38700,39500,40350,41150,41950,42750,43550,44350,45150,45950,46750,47550,48400,49200,50000,50800,51600,52400,53200,54000,54800,55600,56400,57250,58050,58850]
   ,"group":"D"},
   {
     "e164_cc": "55",
@@ -374,21 +380,12 @@ final List<Map<String, dynamic>> countryCodes = [
     "display_name": "Brazil (BR) [+55]",
     "full_example_with_plus_sign": "+551161234567",
     "display_name_no_e164_cc": "Brazil (BR)",
-    "e164_key": "55-BR-0"
-  ,"group":"H"},
-  {
-    "e164_cc": "246",
-    "iso2_cc": "IO",
-    "e164_sc": 0,
-    "geographic": true,
-    "level": 1,
-    "name": "British Indian Ocean Territory",
-    "example": "3801234",
-    "display_name": "British Indian Ocean Territory (IO) [+246]",
-    "full_example_with_plus_sign": "+2463801234",
-    "display_name_no_e164_cc": "British Indian Ocean Territory (IO)",
-    "e164_key": "246-IO-0"
-  ,"group":""},
+    "e164_key": "55-BR-0",
+    "emsMaximum":30,
+    "ems":[6200,7100,8900,10750,12550,14350,16150,17950,19750,21600,23400,25200,27000,28800,30600,32450,34250,36050,37850,39650,41500,43300,45100,46900,48700,50500,52350,54150,55950,57750,59550,61350,63200,65000,66800,68600,70250,71950,73600,75250,76900,78550,80200,81900,83550,85200,86850,88500,90150,91850,93500,95150,96800,98450,100150,101800,103450,105100,106750,108400,110100],
+
+    "group":"H"},
+  
   {
     "e164_cc": "1",
     "iso2_cc": "VG",
@@ -414,7 +411,10 @@ final List<Map<String, dynamic>> countryCodes = [
     "full_example_with_plus_sign": "+6737123456",
     "display_name_no_e164_cc": "Brunei (BN)",
     "e164_key": "673-BN-0"
-  ,"group":"C"},
+  ,
+  "emsMaximum":30,
+    "ems":[3250,3600,4200,4800,5400,6000,6600,7200,7800,8350,8950,9550,10150,10750,11350,11950,12550,13150,13750,14350,14950,15550,16150,16750,17350,17950,18550,19100,19700,20300,20900,21500,22100,22700,23300,23900,24350,24800,25250,25700,26150,26600,27050,27500,27900,28350,28800,29250,29700,30150,30600,31050,31500,31950,32400,32850,33300,33750,34200,34650,35100],
+  "group":"C"},
   {
     "e164_cc": "359",
     "iso2_cc": "BG",
@@ -427,7 +427,10 @@ final List<Map<String, dynamic>> countryCodes = [
     "full_example_with_plus_sign": "+35948123456",
     "display_name_no_e164_cc": "Bulgaria (BG)",
     "e164_key": "359-BG-0"
-  ,"group":"D"},
+  ,
+  "emsMaximum":30,
+    "ems":[4150,4600,5550,6450,7400,8300,9200,10150,11050,12000,12900,13800,14750,15650,16600,17500,18450,19350,20250,21200,22100,23050,23950,24900,25800,26700,27650,28550,29500,30400,31350,32250,33150,34100,35000,35950,36700,37500,38250,39000,39800,40550,41350,42100,42900,43650,44400,45200,45950,46750,47500,48300,49050,49800,50600,51350,52150,52900,53650,54450,55200],
+  "group":"D"},
   {
     "e164_cc": "226",
     "iso2_cc": "BF",
@@ -491,7 +494,8 @@ final List<Map<String, dynamic>> countryCodes = [
     "display_name": "Canada (CA) [+1]",
     "full_example_with_plus_sign": "+12042345678",
     "display_name_no_e164_cc": "Canada (CA)",
-    "e164_key": "1-CA-0"
+    "e164_key": "1-CA-0","emsMaximum":30,
+    "ems":[4750,5950,8250,10550,12900,15200,17500,19800,22150,24450,26750,29100,31400,33700,36000,38350,40650,42950,45250,47600,49900,52200,54500,56850,59150,61450,63750,66100,68400,70700,73050,75350,77650,79950,82300,84600,86750,88900,91100,93250,95400,97550,99750,101900,104050,106250,108400,110550,112700,114900,117050,119200,121350,123550,125700,127850,130000,132200,134350,136500,138650]
   ,"group":"H"},
   {
     "e164_cc": "238",
@@ -506,19 +510,7 @@ final List<Map<String, dynamic>> countryCodes = [
     "display_name_no_e164_cc": "Cape Verde (CV)",
     "e164_key": "238-CV-0"
   ,"group":"G"},
-  {
-    "e164_cc": "599",
-    "iso2_cc": "BQ",
-    "e164_sc": 0,
-    "geographic": true,
-    "level": 1,
-    "name": "Caribbean Netherlands",
-    "example": "3181234",
-    "display_name": "Caribbean Netherlands (BQ) [+599]",
-    "full_example_with_plus_sign": "+5993181234",
-    "display_name_no_e164_cc": "Caribbean Netherlands (BQ)",
-    "e164_key": "599-BQ-0"
-  ,"group":""},
+ 
   {
     "e164_cc": "1",
     "iso2_cc": "KY",
@@ -583,6 +575,9 @@ final List<Map<String, dynamic>> countryCodes = [
     "full_example_with_plus_sign": "+8613123456789",
     "display_name_no_e164_cc": "China (CN)",
     "e164_key": "86-CN-0"
+    ,"emsMaximum":30,
+    "ems":[2750,3450,4700,6000,7250,8550,9850,11100,12400,13650,14950,16250,17500,18800,20050,21350,22650,23900,25200,26450,27750,29050,30300,31600,32850,34150,35450,36700,38000,39250,40550,41850,43100,44400,45650,46950,48100,49200,50350,51450,52600,53750,54850,56000,57100,58250,59400,60500,61650,62750,63900,65050,66150,67300,68400,69550,70700,71800,72950,74050,75200]
+
   ,"group":"C"},
   {
     "e164_cc": "61",
@@ -688,19 +683,7 @@ final List<Map<String, dynamic>> countryCodes = [
     "display_name_no_e164_cc": "Costa Rica (CR)",
     "e164_key": "506-CR-0"
   ,"group":"H"},
-  {
-    "e164_cc": "225",
-    "iso2_cc": "CI",
-    "e164_sc": 0,
-    "geographic": true,
-    "level": 1,
-    "name": "Côte d'Ivoire",
-    "example": "01234567",
-    "display_name": "Côte d'Ivoire (CI) [+225]",
-    "full_example_with_plus_sign": "+22501234567",
-    "display_name_no_e164_cc": "Côte d'Ivoire (CI)",
-    "e164_key": "225-CI-0"
-  ,"group":""},
+  
   {
     "e164_cc": "385",
     "iso2_cc": "HR",
@@ -713,6 +696,8 @@ final List<Map<String, dynamic>> countryCodes = [
     "full_example_with_plus_sign": "+385912345678",
     "display_name_no_e164_cc": "Croatia (HR)",
     "e164_key": "385-HR-0"
+    ,"emsMaximum":30,
+    "ems":[3500,4400,4000,4950,5000,5950,6950,7950,8950,10000,11000,12000,13000,14050,15050,16050,17050,18050,19100,20100,21100,22100,23100,24150,25150,26150,27150,28200,29200,30200,31200,32200,33250,34250,35250,36250,37250,38300,39300,40150,41000,41900,42750,43600,44450,45300,46200,47050,47900,48750,49600,50500,51350,52200,53050,53950,54800,55650,56500,57350,58250,59100,59950,60800]
   ,"group":"D"},
   {
     "e164_cc": "53",
@@ -727,19 +712,7 @@ final List<Map<String, dynamic>> countryCodes = [
     "display_name_no_e164_cc": "Cuba (CU)",
     "e164_key": "53-CU-0"
   ,"group":"H"},
-  {
-    "e164_cc": "599",
-    "iso2_cc": "CW",
-    "e164_sc": 0,
-    "geographic": true,
-    "level": 1,
-    "name": "Curaçao",
-    "example": "95181234",
-    "display_name": "Curaçao (CW) [+599]",
-    "full_example_with_plus_sign": "+59995181234",
-    "display_name_no_e164_cc": "Curaçao (CW)",
-    "e164_key": "599-CW-0"
-  ,"group":""},
+
   {
     "e164_cc": "357",
     "iso2_cc": "CY",
@@ -1195,19 +1168,7 @@ final List<Map<String, dynamic>> countryCodes = [
     "display_name_no_e164_cc": "Guernsey (GG)",
     "e164_key": "44-GG-0"
   ,"group":"E"},
-  {
-    "e164_cc": "224",
-    "iso2_cc": "GN",
-    "e164_sc": 0,
-    "geographic": true,
-    "level": 1,
-    "name": "Guinea Conakry",
-    "example": "60201234",
-    "display_name": "Guinea Conakry (GN) [+224]",
-    "full_example_with_plus_sign": "+22460201234",
-    "display_name_no_e164_cc": "Guinea Conakry (GN)",
-    "e164_key": "224-GN-0"
-  ,"group":""},
+  
   {
     "e164_cc": "245",
     "iso2_cc": "GW",
@@ -1247,19 +1208,7 @@ final List<Map<String, dynamic>> countryCodes = [
     "display_name_no_e164_cc": "Haiti (HT)",
     "e164_key": "509-HT-0"
   ,"group":"H"},
-  {
-    "e164_cc": "672",
-    "iso2_cc": "HM",
-    "e164_sc": 0,
-    "geographic": true,
-    "level": 3,
-    "name": "Heard Island and McDonald Islands",
-    "example": "",
-    "display_name": "Heard Island and McDonald Islands (HM) [+672]",
-    "full_example_with_plus_sign": null,
-    "display_name_no_e164_cc": "Heard Island and McDonald Islands (HM)",
-    "e164_key": "672-HM-0"
-  ,"group":""},
+ 
   {
     "e164_cc": "504",
     "iso2_cc": "HN",
@@ -2119,19 +2068,7 @@ final List<Map<String, dynamic>> countryCodes = [
     "display_name_no_e164_cc": "North Korea (KP)",
     "e164_key": "850-KP-0"
   ,"group":"D"},
-  {
-    "e164_cc": "1",
-    "iso2_cc": "MP",
-    "e164_sc": 0,
-    "geographic": true,
-    "level": 2,
-    "name": "Northern Mariana Islands",
-    "example": "6702345678",
-    "display_name": "Northern Mariana Islands (MP) [+1]",
-    "full_example_with_plus_sign": "+16702345678",
-    "display_name_no_e164_cc": "Northern Mariana Islands (MP)",
-    "e164_key": "1-MP-0"
-  ,"group":""},
+  
   {
     "e164_cc": "47",
     "iso2_cc": "NO",
@@ -2184,19 +2121,7 @@ final List<Map<String, dynamic>> countryCodes = [
     "display_name_no_e164_cc": "Palau (PW)",
     "e164_key": "680-PW-0"
   ,"group":"H"},
-  {
-    "e164_cc": "970",
-    "iso2_cc": "PS",
-    "e164_sc": 0,
-    "geographic": true,
-    "level": 1,
-    "name": "Palestinian Territories",
-    "example": "599123456",
-    "display_name": "Palestinian Territories (PS) [+970]",
-    "full_example_with_plus_sign": "+970599123456",
-    "display_name_no_e164_cc": "Palestinian Territories (PS)",
-    "e164_key": "970-PS-0"
-  ,"group":""},
+  
   {
     "e164_cc": "507",
     "iso2_cc": "PA",
@@ -2366,19 +2291,7 @@ final List<Map<String, dynamic>> countryCodes = [
     "display_name_no_e164_cc": "Rwanda (RW)",
     "e164_key": "250-RW-0"
   ,"group":"E"},
-  {
-    "e164_cc": "590",
-    "iso2_cc": "BL",
-    "e164_sc": 0,
-    "geographic": true,
-    "level": 2,
-    "name": "Saint Barthélemy",
-    "example": "690221234",
-    "display_name": "Saint Barthélemy (BL) [+590]",
-    "full_example_with_plus_sign": "+590690221234",
-    "display_name_no_e164_cc": "Saint Barthélemy (BL)",
-    "e164_key": "590-BL-0"
-  ,"group":""},
+ 
   {
     "e164_cc": "290",
     "iso2_cc": "SH",
@@ -2418,19 +2331,7 @@ final List<Map<String, dynamic>> countryCodes = [
     "display_name_no_e164_cc": "St. Lucia (LC)",
     "e164_key": "1-LC-0"
   ,"group":"H"},
-  {
-    "e164_cc": "590",
-    "iso2_cc": "MF",
-    "e164_sc": 0,
-    "geographic": true,
-    "level": 2,
-    "name": "Saint Martin",
-    "example": "690221234",
-    "display_name": "Saint Martin (MF) [+590]",
-    "full_example_with_plus_sign": "+590690221234",
-    "display_name_no_e164_cc": "Saint Martin (MF)",
-    "e164_key": "590-MF-0"
-  ,"group":""},
+  
   {
     "e164_cc": "508",
     "iso2_cc": "PM",
@@ -2574,19 +2475,7 @@ final List<Map<String, dynamic>> countryCodes = [
     "display_name_no_e164_cc": "Singapore (SG)",
     "e164_key": "65-SG-0"
   ,"group":"B"},
-  {
-    "e164_cc": "1",
-    "iso2_cc": "SX",
-    "e164_sc": 0,
-    "geographic": true,
-    "level": 2,
-    "name": "Sint Maarten",
-    "example": "7215205678",
-    "display_name": "Sint Maarten (SX) [+1]",
-    "full_example_with_plus_sign": "+17215205678",
-    "display_name_no_e164_cc": "Sint Maarten (SX)",
-    "e164_key": "1-SX-0"
-  ,"group":""},
+  
   {
     "e164_cc": "421",
     "iso2_cc": "SK",
@@ -2679,19 +2568,7 @@ final List<Map<String, dynamic>> countryCodes = [
     "display_name_no_e164_cc": "South Korea (KR)",
     "e164_key": "82-KR-0"
   ,"group":"D"},
-  {
-    "e164_cc": "211",
-    "iso2_cc": "SS",
-    "e164_sc": 0,
-    "geographic": true,
-    "level": 1,
-    "name": "South Sudan",
-    "example": "977123456",
-    "display_name": "South Sudan (SS) [+211]",
-    "full_example_with_plus_sign": "+211977123456",
-    "display_name_no_e164_cc": "South Sudan (SS)",
-    "e164_key": "211-SS-0"
-  ,"group":""},
+  
   {
     "e164_cc": "34",
     "iso2_cc": "ES",
@@ -2705,19 +2582,7 @@ final List<Map<String, dynamic>> countryCodes = [
     "display_name_no_e164_cc": "Spain (ES)",
     "e164_key": "34-ES-0"
   ,"group":"E"},
-  {
-    "e164_cc": "94",
-    "iso2_cc": "LK",
-    "e164_sc": 0,
-    "geographic": true,
-    "level": 1,
-    "name": "Sri Lanka",
-    "example": "712345678",
-    "display_name": "Sri Lanka (LK) [+94]",
-    "full_example_with_plus_sign": "+94712345678",
-    "display_name_no_e164_cc": "Sri Lanka (LK)",
-    "e164_key": "94-LK-0"
-  ,"group":""},
+  
   {
     "e164_cc": "249",
     "iso2_cc": "SD",
@@ -2744,19 +2609,7 @@ final List<Map<String, dynamic>> countryCodes = [
     "display_name_no_e164_cc": "Suriname (SR)",
     "e164_key": "597-SR-0"
   ,"group":"H"},
-  {
-    "e164_cc": "47",
-    "iso2_cc": "SJ",
-    "e164_sc": 0,
-    "geographic": true,
-    "level": 3,
-    "name": "Svalbard and Jan Mayen",
-    "example": "41234567",
-    "display_name": "Svalbard and Jan Mayen (SJ) [+47]",
-    "full_example_with_plus_sign": "+4741234567",
-    "display_name_no_e164_cc": "Svalbard and Jan Mayen (SJ)",
-    "e164_key": "47-SJ-0"
-  ,"group":""},
+  
   {
     "e164_cc": "46",
     "iso2_cc": "SE",
@@ -3134,19 +2987,7 @@ final List<Map<String, dynamic>> countryCodes = [
     "display_name_no_e164_cc": "Wallis and Futuna (WF)",
     "e164_key": "681-WF-0"
   ,"group":"G"},
-  {
-    "e164_cc": "212",
-    "iso2_cc": "EH",
-    "e164_sc": 0,
-    "geographic": true,
-    "level": 3,
-    "name": "Western Sahara",
-    "example": "",
-    "display_name": "Western Sahara (EH) [+212]",
-    "full_example_with_plus_sign": null,
-    "display_name_no_e164_cc": "Western Sahara (EH)",
-    "e164_key": "212-EH-0"
-  ,"group":""},
+  
   {
     "e164_cc": "967",
     "iso2_cc": "YE",
