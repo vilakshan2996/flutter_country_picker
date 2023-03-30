@@ -23,6 +23,7 @@ class Country {
   );
 
   final List<int>? ems;
+  final int? emsMaximum;
 
   ///The country phone code
   final String phoneCode;
@@ -82,7 +83,8 @@ class Country {
     required this.e164Key,
     this.fullExampleWithPlusSign,
     this.group,
-   this.ems
+   this.ems,
+   this.emsMaximum
   });
 
   Country.from({required Map<String, dynamic> json})
@@ -98,6 +100,7 @@ class Country {
         displayNameNoCountryCode = json['display_name_no_e164_cc'],
         group = json['group'],
         e164Key = json['e164_key'],
+        emsMaximum = json['emsMaximum']??null,
         ems = json['ems']??null;
 
   static Country parse(String country) {
