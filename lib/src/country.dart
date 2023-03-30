@@ -18,8 +18,11 @@ class Country {
     displayName: 'World Wide (WW)',
     displayNameNoCountryCode: 'World Wide',
     e164Key: '',
-    group:""
+    group:"",
+    
   );
+
+  final List<int>? ems;
 
   ///The country phone code
   final String phoneCode;
@@ -56,6 +59,7 @@ class Country {
     'This feature was deprecated after v1.0.6.',
   )
   String get displayNameNoE164Cc => displayNameNoCountryCode;
+  List<int>? get getEMSData => ems;
 
   String? get groupName => group;
 
@@ -77,7 +81,8 @@ class Country {
     required this.displayNameNoCountryCode,
     required this.e164Key,
     this.fullExampleWithPlusSign,
-    this.group
+    this.group,
+   this.ems
   });
 
   Country.from({required Map<String, dynamic> json})
@@ -92,7 +97,8 @@ class Country {
         fullExampleWithPlusSign = json['full_example_with_plus_sign'],
         displayNameNoCountryCode = json['display_name_no_e164_cc'],
         group = json['group'],
-        e164Key = json['e164_key'];
+        e164Key = json['e164_key'],
+        ems = json['ems']??null;
 
   static Country parse(String country) {
     if (country == worldWide.countryCode) {

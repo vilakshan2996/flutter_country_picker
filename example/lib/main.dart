@@ -74,6 +74,7 @@ class HomePage extends StatelessWidget {
               onSelect: (Country country) {
                 print('Select country: ${country.displayName}');
                 print(country.groupName);
+                print(country.ems);
               },
               // Optional. Sets the theme for the country list picker.
               countryListTheme: CountryListThemeData(

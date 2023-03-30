@@ -10,8 +10,9 @@ final List<Map<String, dynamic>> countryCodes = [
     "display_name": "Afghanistan (AF) [+93]",
     "full_example_with_plus_sign": "+93701234567",
     "display_name_no_e164_cc": "Afghanistan (AF)",
-    "e164_key": "93-AF-0"
-  ,"group":"C"},
+    "e164_key": "93-AF-0",
+    
+  "group":"C"},
   {
     "e164_cc": "358",
     "iso2_cc": "AX",
@@ -1752,7 +1753,8 @@ final List<Map<String, dynamic>> countryCodes = [
     "display_name": "Maldives (MV) [+960]",
     "full_example_with_plus_sign": "+9607712345",
     "display_name_no_e164_cc": "Maldives (MV)",
-    "e164_key": "960-MV-0"
+    "e164_key": "960-MV-0",
+    "ems":[4450,4600,4850,5100,5350,5600,5800,6050,6300,6550,6750,7000,7250,7500,7750,7950,8200,12950, 13050, 13100, 13200, 13300, 13400, 13500, 13550, 13650]
   ,"group":"A"},
   {
     "e164_cc": "223",
